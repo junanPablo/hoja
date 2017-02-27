@@ -9,9 +9,9 @@ package hoja;
  *
  * @author Juan Pablo Merck
  */
-public abstract class AbStack <E> implements MiStack <E>{
-    public int size(){
-        return size();
+public abstract class AbLista <E> implements Listas<E> {
+    protected int cuenta;
+    public int getSize(){
+        return cuenta;
     }
-    
 }

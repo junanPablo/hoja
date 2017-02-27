@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hoja4;
+package hoja;
 
 /**
  *
  * @author Juan Pablo Merck
- * Referencias
- * http://www.w3api.com/wiki/Java:Stack
- * http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=608:la-estructura-de-datos-pila-en-java-clase-stack-del-api-java-ejemplo-simple-y-ejercicios-resueltos-cu00923c&catid=58:curso-lenguaje-programacion-java-nivel-avanzado-i&Itemid=180
+ * fuentes de info
+ * http://www.taringa.net/posts/apuntes-y-monografias/14961317/Stack-pilas--java.html
  */
-public interface MiStack<E> {
-    
-    public void Push(E Element);
-    public E Pop();
-    public boolean vacio();
-    public int Size();
-    public E getStack();
+public interface MiStack <E>{
+    /**metodos que seran usados por otras clases y sirve como una interface
+     * entre clases para que interactuen
+     *  
+     */
+    public void push(E Element);
+    public E pop();
+    public boolean empty();
+    public int size();
+    public E getE();
 }

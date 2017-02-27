@@ -9,9 +9,13 @@ package hoja;
  *
  * @author Juan Pablo Merck
  */
-public abstract class AbStack <E> implements MiStack <E>{
-    public int size(){
-        return size();
+public class pkg4Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
 }
